@@ -13,6 +13,9 @@
 		AFB68CB225DF7CFC00AF2303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB68CB025DF7CFC00AF2303 /* Main.storyboard */; };
 		AFB68CB425DF7CFD00AF2303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB68CB325DF7CFD00AF2303 /* Assets.xcassets */; };
 		AFB68CB725DF7CFD00AF2303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB68CB525DF7CFD00AF2303 /* LaunchScreen.storyboard */; };
+		AFB68CCB25DF840400AF2303 /* redlight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFB68CC825DF840400AF2303 /* redlight.jpg */; };
+		AFB68CCC25DF840400AF2303 /* trafficlight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFB68CC925DF840400AF2303 /* trafficlight.jpg */; };
+		AFB68CCD25DF840400AF2303 /* greenlight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFB68CCA25DF840400AF2303 /* greenlight.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		AFB68CB325DF7CFD00AF2303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFB68CB625DF7CFD00AF2303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFB68CB825DF7CFD00AF2303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFB68CC825DF840400AF2303 /* redlight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redlight.jpg; sourceTree = "<group>"; };
+		AFB68CC925DF840400AF2303 /* trafficlight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trafficlight.jpg; sourceTree = "<group>"; };
+		AFB68CCA25DF840400AF2303 /* greenlight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greenlight.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 		AFB68CA925DF7CFC00AF2303 /* ImageView */ = {
 			isa = PBXGroup;
 			children = (
+				AFB68CCA25DF840400AF2303 /* greenlight.jpg */,
+				AFB68CC825DF840400AF2303 /* redlight.jpg */,
+				AFB68CC925DF840400AF2303 /* trafficlight.jpg */,
 				AFB68CAA25DF7CFC00AF2303 /* AppDelegate.swift */,
 				AFB68CAC25DF7CFC00AF2303 /* SceneDelegate.swift */,
 				AFB68CAE25DF7CFC00AF2303 /* ViewController.swift */,
@@ -124,8 +133,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFB68CCD25DF840400AF2303 /* greenlight.jpg in Resources */,
+				AFB68CCC25DF840400AF2303 /* trafficlight.jpg in Resources */,
 				AFB68CB725DF7CFD00AF2303 /* LaunchScreen.storyboard in Resources */,
 				AFB68CB425DF7CFD00AF2303 /* Assets.xcassets in Resources */,
+				AFB68CCB25DF840400AF2303 /* redlight.jpg in Resources */,
 				AFB68CB225DF7CFC00AF2303 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
