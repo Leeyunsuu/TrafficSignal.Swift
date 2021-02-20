@@ -29,12 +29,12 @@ class ViewController: UIViewController {
     var newWidht: CGFloat, newHeight: CGFloat
     if (imgZoom) {
       newWidht = imageView.frame.width / scale
-      newHeight = imageView.frame.height / scale
+      newHeight = imageView.frame.height
       buttonResize.setTitle("확대", for: .normal)
     }
     else {
       newWidht = imageView.frame.width * scale
-      newHeight = imageView.frame.height * scale
+      newHeight = imageView.frame.height
       buttonResize.setTitle("축소", for: .normal)
 
     }
